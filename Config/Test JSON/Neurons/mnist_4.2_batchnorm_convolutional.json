@@ -1,0 +1,45 @@
+{
+  "name": "Generic_Classifier.py",
+  "description": "Machine Learning Model to classify any image Dataset",
+  "version": "1.0.0",
+  "release date" : "9 September 2018",
+  "license": "MIT",
+  "keywords": [
+    "Tensorflow",
+    "Image Classification",
+    "machine learning"
+  ],
+  "author": "Vinu Karthek Rajamani <vinukarthek@gmail.com>",
+  "datalog_dir": "C:\\Datalog\\datalog.csv",
+  "mode": "train",
+  "dataset": {
+  "data_source": "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Animals\\Data\\Dataset.zip",
+  "label_names" : ["cat","dog"],
+    "points": "100",
+	"summary_steps" : 100,
+	"x_resolution": 50,
+	"y_resolution": 50
+   } ,
+   "neurons":{
+   "neural_schema" : "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Tensorflow_Neural_Schema.csv",
+   "framework": "tensorflow"
+   },
+  "train": {
+    "optimizer": "AdamOptimizer",
+	"max_lr" : 0.003,
+    "min_lr" : 0.0001,
+    "decay_speed" : 2000.0,
+	"steps" : 10001,
+	"update_steps" : 100
+  } ,
+  "checkpoints": {
+    "path": "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Checkpoints"
+	} ,
+  "mqtt": {
+  "host" : "localhost",
+  "port" : 1883,
+  "topics": {"sensors" : {"aliasname": "unique_topic_id", "tsense": "sensor/temperature"},
+  "actuators" : {"aliasname": "unique_topic_id", "tsense": "actuator/lever"}}
+  
+  }
+}

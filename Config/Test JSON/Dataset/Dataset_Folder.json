@@ -1,0 +1,17 @@
+{
+  "name": "Dataset Class - Test Case 1",
+  "description": "Dataset - Folders with Images of cats & Dogs",
+  "version": "1.0.0",
+  "release date" : "9 September 2018",
+  "license": "MIT",
+  "author": "Vinu Karthek Rajamani <vinukarthek@gmail.com>",
+  "dataset": {
+  "data_source": "D:\\Reddit Data\\cat_dog\\",
+  "label_names" : ["cat","dog"],
+    "points": "100",
+	"summary_steps" : 100,
+	"x_resolution": 50,
+	"y_resolution": 50
+   }
+ 
+}

@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "images:0"
+  metadata_path: "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Checkpoints\\Tensorboard\\mnist_t-SNE_Standalone\\metadata.tsv"
+}

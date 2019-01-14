@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Checkpoints\\Tensorboard\\mnist_2.1_five_layers_relu_lrdecay\\mnist_2.1_five_layers_relu_lrdecay.ckpt"
+all_model_checkpoint_paths: "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Checkpoints\\Tensorboard\\mnist_2.1_five_layers_relu_lrdecay\\mnist_2.1_five_layers_relu_lrdecay.ckpt"

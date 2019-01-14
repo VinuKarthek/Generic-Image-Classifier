@@ -1,0 +1,5 @@
+Layer Name,Convolution,Filter,Channel,Stride,Batch Norm,Neurons,Activation Function,Dropout,pkeep,Log_W,Log_B
+,NO,,,,,200,relu,YES,1,,
+,NO,,,,,100,relu,YES,1,,
+,NO,,,,,60,relu,YES,1,,
+,NO,,,,,30,softmax,NO,1,,

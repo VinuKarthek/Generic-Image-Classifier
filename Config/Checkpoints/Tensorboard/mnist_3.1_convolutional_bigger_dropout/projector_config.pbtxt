@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "Variable:0"
+  metadata_path: "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Checkpoints\\Tensorboard\\mnist_3.1_convolutional_bigger_dropout\\metadata.tsv"
+}

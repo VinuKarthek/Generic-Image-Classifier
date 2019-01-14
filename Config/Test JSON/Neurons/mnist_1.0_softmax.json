@@ -1,0 +1,23 @@
+{
+    "name": "Dataset Class - Test Case 1",
+    "description": "Dataset - Folders with Images of cats & Dogs",
+    "author": "Vinu Karthek Rajamani <vinukarthek@gmail.com>",
+    "dataset": {
+        "data_source": "MNIST"
+    },
+    "neurons": {
+        "neural_schema": "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Test JSON\\Neurons\\mnist_1.0_softmax.csv",
+        "framework": "tensorflow"
+    },
+    "train": {
+        "optimizer": "GradientDescentOptimizer",
+        "max_lr": 0.003,
+        "min_lr": 0.003,
+        "decay_speed": 2000.0,
+        "steps": 10001,
+        "update_interval": 100
+    },
+    "checkpoints": {
+        "path": "D:\\Python\\Tensorflow\\Neural_Networks\\Image Classifier\\Generic_Classifier\\Config\\Checkpoints\\Tensorboard"
+    }
+}
